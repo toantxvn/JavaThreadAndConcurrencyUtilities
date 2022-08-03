@@ -51,7 +51,7 @@ public class Solution {
     }
 
     /**
-     *  synchronized giữ khóa của Person.class
+     *  synchronized giữ khóa của Solution.class
      */
     public static synchronized int getId(int type) {
         return counter++;
